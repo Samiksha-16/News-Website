@@ -1,10 +1,5 @@
 import React from 'react';
-import {Link}from 'react-router-dom';
-
 class Navbar extends React.Component {
-
-
-
     render() { 
         return <div>
 <>
@@ -36,7 +31,8 @@ class Navbar extends React.Component {
         <b>NEWS</b>
       </p>
     </div>
-    {/* <ul>
+    
+    <ul>
       <li>
         <a href="World">World</a>
       </li>
@@ -52,13 +48,9 @@ class Navbar extends React.Component {
       <li>
         <a href="Science">Science</a>
       </li>
-      <li> */}
-        <button value="Sports" onClick={(e)=>{console.log(e.target.value)}}>Sports</button>
-        <button value="Health" onClick={(e)=>{console.log(e.target.value)}}>Health</button>
-        <button value="Entertainment" onClick={(e)=>{console.log(e.target.value)}}>Entertainment</button>
-        <button value="Sports" onClick={(e)=>{console.log(e.target.value)}}>Sports</button>
-
-        {/* <a href="Sports">Sports</a>
+      <li> 
+        
+        <a href="Sports">Sports</a>
 
       </li>
       <li>
@@ -70,13 +62,14 @@ class Navbar extends React.Component {
       <li>
         <a href="Arts">Arts</a>
       </li>
-    </ul> */}
+    </ul> 
     <div className="menubox">
       <i className="fa fa-ellipsis-h" aria-hidden="true" />
     </div>
   </div>
   <div className="mainnewsbox">
     <h1>Latest News Headlines</h1>
+    
   </div>
   
 </>

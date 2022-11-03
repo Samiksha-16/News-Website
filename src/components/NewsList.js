@@ -2,11 +2,14 @@ import React, {useState,useEffect, Component}from 'react'
 import axios from 'axios'
 import NewsItem from './NewsItem';
 
+ 
 const NewsList = () => {
+
     const [articles,setArticles]=useState([])
     useEffect(()=>{
         const getArticles=async ()=>{
-            const response= await axios.get('https://newsapi.org/v2/everything?q=general&from=2022-10-31&sortBy=publishedAt&apiKey=bebf203afe1f4dcd92ff79f55714fff7')
+            
+            const response= await axios.get('https://newsapi.org/v2/everything?q={count}&from=2022-10-31&sortBy=publishedAt&apiKey=bebf203afe1f4dcd92ff79f55714fff7')
 console.log(response)
 setArticles(response.data.articles)
         }
@@ -15,8 +18,10 @@ setArticles(response.data.articles)
        
        
   return (
+   
+
     <div className='newsmainbox'>
-        
+
         {articles.map(article=>{
             return(
 <NewsItem

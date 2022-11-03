@@ -14,7 +14,7 @@ function App() {
   <Navbar/>
 {/* <Category/> */}
   <News/>
-  <NewsList />
+  <NewsList Category="sports"/>
 {/* <Sports/> */}
   </>
   );
