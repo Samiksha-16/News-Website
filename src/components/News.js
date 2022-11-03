@@ -5,10 +5,7 @@ class News extends React.Component {
     render() { 
         return <div>
             <>
-            {/* <div className="mainnewsbox">
-                <h1>Bloomberg-Top News Headlines</h1>
-            </div>
- */}
+     
 
             </>
         </div>
