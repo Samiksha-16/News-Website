@@ -1,4 +1,8 @@
 import React from 'react';
+import Subscribe from './Subscribe';
+const handleClick = () => {
+  alert("hello");
+}
 class Navbar extends React.Component {
     render() { 
         return <div>
@@ -6,9 +10,13 @@ class Navbar extends React.Component {
   <div className="navigation">
     
     <div className="navbarleft">
+      <p>MENU</p>
+    
+
+     
       <div className="icons">
-        <i className="fa fa-bars" aria-hidden="true" />
-        &nbsp; <i className="fa fa-search" aria-hidden="true" />
+      <i className="fa fa-bars" aria-hidden="true" />
+        <i className="fa fa-search" aria-hidden="true" />
         <i className="fa fa-bell-o" aria-hidden="true" />
       </div>
       <div className="heading">
@@ -18,13 +26,13 @@ class Navbar extends React.Component {
     </div>
     <div className="navbarright">
       <button>
-        <i className="fa fa-user-o" aria-hidden="true" />
-        Sign up
+        <i className="fa fa-user-o" aria-hidden="true" /> 
+         Sign up
       </button>
-      <button>Subscribe</button>
+      <button onClick={Subscribe}>Subscribe</button>
     </div>
   </div>
-  <hr />
+  {/* <hr /> */}
   <div className="navigationlist">
     <div className="day">
       <p>

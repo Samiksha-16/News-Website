@@ -1,3 +1,5 @@
+
+
 import React, {useState,useEffect, Component}from 'react'
 import axios from 'axios'
 import NewsItem from './NewsItem';
@@ -9,7 +11,7 @@ const NewsList = () => {
     useEffect(()=>{
         const getArticles=async ()=>{
             
-            const response= await axios.get('https://newsapi.org/v2/everything?q=tesla&from=2023-07-26&sortBy=publishedAt&apiKey=bebf203afe1f4dcd92ff79f55714fff7')
+            const response= await axios.get('https://newsapi.org/v2/everything?q=science&from=2023-07-26&sortBy=publishedAt&apiKey=bebf203afe1f4dcd92ff79f55714fff7')
 console.log(response)
 setArticles(response.data.articles)
         }

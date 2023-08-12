@@ -10,7 +10,7 @@
   padding: 8px;
   padding-top: 0;
   color: black;
-  background-color: rgb(148, 148, 138);
+  background-color: #97caca;
 }
 
 .navbarleft {
@@ -35,7 +35,10 @@ margin: 10px;}
   font-family: 'baloo',sans-serif;
   text-align: left;
 }
-
+/* .navbarleft p{
+  font-family: 'baloo',sans-serif;
+font-size:bold ;
+} */
 button {
   background: black;
   padding: 5px;
@@ -65,13 +68,13 @@ a {
 a:hover {
   color: brown;
   font-weight: bold;
-  background-color: rgb(231, 221, 221);
+  /* background-color: rgb(231, 221, 221); */
 }
 .navigationlist{
   display: flex;
   align-items: center;
   color: black;
-  background-color:rgb(148, 148, 138);
+  background-color:#fff;
 }
 .navigationlist ul {
   display: flex;
@@ -124,7 +127,7 @@ h1{
   
 }
 .mainnewsbox{
-  background-color: rgb(236, 214, 218);
+  /* background-color: ; */
   height: 50px;
 margin: 1px;
 text-align: center;
