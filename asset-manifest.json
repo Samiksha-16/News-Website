@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Samiksha-16/News-Website.git/static/css/main.e698bc85.css",
+    "main.js": "/Samiksha-16/News-Website.git/static/js/main.9f5dd0e1.js",
+    "static/js/787.fe1675bb.chunk.js": "/Samiksha-16/News-Website.git/static/js/787.fe1675bb.chunk.js",
+    "index.html": "/Samiksha-16/News-Website.git/index.html",
+    "main.e698bc85.css.map": "/Samiksha-16/News-Website.git/static/css/main.e698bc85.css.map",
+    "main.9f5dd0e1.js.map": "/Samiksha-16/News-Website.git/static/js/main.9f5dd0e1.js.map",
+    "787.fe1675bb.chunk.js.map": "/Samiksha-16/News-Website.git/static/js/787.fe1675bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e698bc85.css",
+    "static/js/main.9f5dd0e1.js"
+  ]
+}
